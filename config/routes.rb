@@ -1,4 +1,6 @@
 OzHomepage::Application.routes.draw do
+  get "gallery/index"
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
