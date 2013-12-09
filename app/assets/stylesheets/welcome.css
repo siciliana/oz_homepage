@@ -1,0 +1,15 @@
+html {
+	background: #282822;
+}
+
+.homepage_logo {
+	margin: 0;
+	padding-left: 20%;
+	width: 200px;
+}
+
+.homepage_art {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
