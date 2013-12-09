@@ -1,12 +1,34 @@
 html {
 	background: #282822;
+	font-family: 'Alegreya SC', serif;
 }
 
-.homepage_logo {
-	margin: 0;
-	padding-left: 10%;
-	width: 200px;
+.oz {
+	font-size: 60px;
+	text-align: center;
 }
+
+.oz:hover {
+	color: #B29800;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+/*.homepage_logo {
+	background: url('oz_logo.jpg'), repeat:none;
+	margin: 0;
+	padding-left: 20%;
+	width: 1500px;
+	height: 200px;
+}*/
+
+/*.homepage_logo:hover {
+	background: url('oz_logo_hover.jpg');
+	margin: 0;
+	padding-left:20%;
+	width: 150px;
+	height: 200px;
+}*/
 
 .homepage_art {
     display: block;
@@ -18,6 +40,10 @@ navbar {
 	display:inline;
 }
 
+ul {
+	text-align: center;
+}
+
 ul li {
 	display:inline;
 	color:white;
@@ -25,8 +51,14 @@ ul li {
 	padding:15px;
 }
 
-ul li:hover {
+ul li a {
+	text-decoration: none;
+	color: white;
+}
+ul li a:hover {
 	color: #B29800;
+	text-shadow: 2px 2px #000;
+	text-decoration: none;
 }
 
 ul {
@@ -36,6 +68,8 @@ ul {
 .footer {
 	text-align: center;
 	color:white;
+	text-shadow: 1px 1px gray;
+
 }
 
 

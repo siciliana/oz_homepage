@@ -1,15 +1,16 @@
 <div class="navbar">
+	<div class ="homepage_logo" ></div>
+	<h1 class="oz"> OZ HAVER </h1> 
 	<ul>
-		<li><%= image_tag "oz_logo.jpg", :class => "homepage_logo" %></li>
-		<li> HOME </li>
-		<li> NEWS </li>
-		<li>GALLERY </li> 
-		<li>DOODLES </li>
-		<li>BIO </li>
-		<li>CONTACT </li>
-		<li>LINKS </li>
-</ul>
-<br> 
+		<li> <%= link_to 'HOME', '/' %> </li>
+		<li> <%= link_to 'NEWS', 'news/index' %> </li>
+		<li> <%= link_to 'GALLERY', 'gallery/index' %> </li> 
+		<li> <%= link_to 'DOODLES', 'doodles/index' %> </li>
+		<li> <%= link_to 'BIO', 'bio/index' %> </li>
+		<li> <%= link_to 'CONTACT', 'contact/index' %> </li>
+		<li> <%= link_to 'LINKS', 'links/index' %> </li>
+	</ul>
+	<br> 
 </div>
 <%= image_tag "home_image1.jpg", :class => "homepage_art" %>
 
