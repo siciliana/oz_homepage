@@ -1,9 +1,12 @@
+<%= render 'navbar' %>
 
-
-<h1>Gallery#index</h1>
-<p>Find me in app/views/gallery/index.html.erb</p>
 
 <div class="actions">
 <%# This is the line to add: -%>
-     <%= link_to "view in gallery", 'http://localhost:3000/assets/home_image1.jpg', { :class => "grouped_elements", :rel => "zomg_awesome_images" } %> |
+     <%= link_to(image_tag('ROFOHILTSIS500w200.jpg'), { :class => "grouped_elements", :rel => "zomg_awesome_images" }) %> | 
     
+     <%= link_to "view in gallery", 'http://localhost:3000/assets/home_image1.jpg', { :class => "grouped_elements", :rel => "zomg_awesome_images" } %> | 
+
+          <%= link_to "view in gallery", 'http://localhost:3000/assets/home_image1.jpg', { :class => "grouped_elements", :rel => "zomg_awesome_images" } %> 
+
+</div> 
